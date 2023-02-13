@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+:root {
+    --textshadow: 3px 3px 5px rgba(0, 0, 0, 0.587);
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -93,8 +97,11 @@ article.title-content {
 }
 
 article.title-content h1 {
-    padding-top: 10px;
-    font-size: 5em;
+    display: flex;
+    align-items: center;
+    font-size: 10em;
+    text-shadow: 2px 2px 3px black;
+    color: white;
 }
 
 article.nav-article {
