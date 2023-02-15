@@ -96,6 +96,8 @@ article.title-content {
     
 }
 
+
+
 article.title-content h1 {
     display: flex;
     align-items: center;
@@ -105,10 +107,14 @@ article.title-content h1 {
 }
 
 article.nav-article {
+    
     width: 100%;
-    background-color: rgb(102, 50, 50);
-    padding-bottom: 30px;
-    padding-top: 30px;
+    background-image: url(../imagens/egito.png);
+    background-size: cover;
+    border: 0px solid transparent;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
     
 }
 
@@ -122,10 +128,19 @@ article.nav-article ul {
 article.nav-article a {
     color: white;
     font-size: 2em ;
+    transition: 1s ease-in-out;
+}
+
+.nav-article a:hover {
+    box-shadow: 2px 2px 5px black;
+    padding: 10px;
+    background-color:rgba(36, 94, 241, 0.371);
+    font-weight: bolder;
 }
 
 #images {
-    background-color: darkkhaki;
+    background: url(../imagens/egito.png) fixed  no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-around;
     padding: 30px;
